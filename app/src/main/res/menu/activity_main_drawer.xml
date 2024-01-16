@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_today"
+            android:icon="@drawable/ic_today"
+            android:title="@string/menu_today" />
+        <item
+            android:id="@+id/nav_this_week"
+            android:icon="@drawable/ic_this_week"
+            android:title="@string/menu_this_week" />
+        <item
+            android:id="@+id/nav_scheduled"
+            android:icon="@drawable/ic_scheduled"
+            android:title="@string/menu_scheduled" />
+        <item
+            android:id="@+id/nav_not_scheduled"
+            android:icon="@drawable/ic_not_scheduled"
+            android:title="@string/menu_not_scheduled" />
+        <item
+            android:id="@+id/nav_completed"
+            android:icon="@drawable/ic_completed"
+            android:title="@string/menu_completed" />
+        <item
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/ic_projects"
+            android:title="@string/menu_projects" />
+    </group>
+</menu>
